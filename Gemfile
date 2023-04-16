@@ -65,6 +65,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'solargraph', '~> 0.49.0'
+  gem 'rubocop', '~> 1.50', '>= 1.50.1'
 end
 
 group :test do
